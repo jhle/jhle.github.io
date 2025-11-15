@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Developer Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0d0d0d;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .projects {
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .card .preview {
+      background: #222;
+      height: 180px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .about, .contact {
+      max-width: 800px;
+      text-align: center;
+      margin: 60px auto;
+      padding: 20px;
+    }
+    button {
+      background: #4a4aff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Game Developer Portfolio</h1>
+    <p>Showcasing projects, prototypes, and interactive experiments.</p>
+  </header>
+
+  <section class="projects">
+    <div class="card">
+      <div class="preview">Embed iframe or screenshot</div>
+      <h2>Project Title</h2>
+      <p>Brief description of your game project. Built with Unity/Godot/etc.</p>
+      <button>View Project</button>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I'm a game developer with experience in Unity, Godot, and more. I build games, tools, and prototypes.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out for collaborations or opportunities.</p>
+    <button>Email Me</button>
+  </section>
+
+</body>
+</html>
